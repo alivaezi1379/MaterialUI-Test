@@ -125,7 +125,7 @@ const rows = [
 ];
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
 
   const pData = [5, 6, 4, 5, 7, 4, 5];
