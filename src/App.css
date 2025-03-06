@@ -1,0 +1,129 @@
+.app {
+  display: flex;
+  background-color: #05070A;
+}
+
+p,h3,h1,h2,h4,span{
+  color: aliceblue;
+}
+
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  background-color: #0d1018;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  position: sticky;
+  top: 0;
+}
+
+.main-contents {
+  width: 100%;
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #05070A;
+}
+.MuiChartsAxis-tickLabel {
+  fill: #fff !important;
+}
+
+.MuiChartsAxis-line{
+  stroke: #fff !important;
+}
+.MuiAreaElement-series-France{
+  fill:#006ad625 !important
+}
+.MuiAreaElement-series-Germany{
+  fill: #37b3ff25 !important
+}
+.MuiAreaElement-series-United{
+  fill: #4fb4ce25 !important
+}
+.MuiChartsTooltip-paper{
+  background-color: #05070A !important;
+  border-radius: 16px !important;
+}
+.MuiListItemText-secondary{
+  color: #94A0B8 !important;
+}
+.MuiChartsGrid-line , .MuiChartsGrid-horizontalLine{
+  color:#fff !important;
+  stroke: rgba(167, 167, 167, 0.315) !important;
+}
+.MuiChartsTooltip-mark{
+  border: none !important;
+}
+.MuiDataGrid-columnHeaders{
+  color: #fff;
+
+}
+.MuiDataGrid-row--borderBottom{
+  background-color: #0C1017
+  !important;
+}
+.MuiDataGrid-virtualScrollerRenderZone{
+  background-color: #05070A !important;
+}
+.MuiDataGrid-columnSeparator{
+  display: none !important;
+}
+
+.MuiSvgIcon-fontSizeMedium{
+  width: 18px !important;
+  height: 18px !important;
+fill: #94A0B8 !important;
+  border-radius: 16px !important;
+}
+.css-1qkz8p7{
+fill: #fff !important;
+}
+.MuiChartsLegend-column{
+  display: block;
+}
+.MuiChartsLegend-series text{
+  fill: #fff !important;
+}
+.tooltip-container {
+  background-color: #000 !important;
+  border-radius: 16px !important;
+}
+.line-charts {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+  gap: 10px;
+}
+.second-charts {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.table-tree-con {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.table-sec {
+  width: 70%;
+  display: flex;
+  justify-content: start;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+.treeView {
+  width: 30%;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 16px;
+}
