@@ -88,6 +88,13 @@ fill: #fff !important;
 .MuiChartsLegend-series text{
   fill: #fff !important;
 }
+.MuiChartsTooltip-valueCell{
+  color: #fff !important;
+  padding-left: 8px !important;
+}
+.MuiChartsTooltip-labelCell{
+  color: #fff  !important;
+}
 .tooltip-container {
   background-color: #000 !important;
   border-radius: 16px !important;
